@@ -25,27 +25,15 @@
             </div>
             <div class="right-column">
                 <p>Click here To Listen</p>
+                <img src="images/previous.png" id="prev-icon">
                 <img src="images/play.png" id="icon">
+                <img src="images/next.png" id="next-icon">
             </div>
         </div>
     </div>
     <audio id="mySong">
         <source src="songs/Six_Days.mp3" type="audio/mp3">
     </audio>
-    <script>
-        var mySong=document.getElementById("mySong");
-        var icon=document.getElementById("icon");
-
-        icon.onclick=function(){
-            if(mySong.paused){
-                mySong.play();
-                icon.src="images/pause.png";
-            }
-            else{
-                mySong.pause();
-                icon.src="images/play.png";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
