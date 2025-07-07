@@ -32,5 +32,13 @@
     <audio id="mySong">
         <source src="songs/Six_Days.mp3" type="audio/mp3">
     </audio>
+    <script>
+        var mySong=document.getElementById("mySong");
+        var icon=document.getElementById("icon");
+
+        icon.onclick=function(){
+            mySong.play();
+        }
+    </script>
 </body>
 </html>
