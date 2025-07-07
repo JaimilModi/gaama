@@ -64,3 +64,6 @@
     width: 80px;
     cursor: pointer;
 }
+#mySong:hover{
+    border: 2px solid #eb98bf;
+}
