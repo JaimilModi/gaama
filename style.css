@@ -71,12 +71,12 @@ HTML{
 #prev-icon{
     width: 80px;
     cursor: pointer;
-    border-radius: 3rem;
+    border-radius: 50%;
 }
 #next-icon{
     width: 80px;
     cursor: pointer;
-    border-radius: 3rem;
+    border-radius: 50%;
 }
 #mySong:hover{
     border: 2px solid #eb98bf;
