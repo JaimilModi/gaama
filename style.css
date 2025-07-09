@@ -1,83 +1,83 @@
-HTML{
-    scroll-behavior:smooth;
+HTML {
+  scroll-behavior: smooth;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/image.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/image.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.navbar{
-    width: 88%;
-    margin: auto;
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo{
-    width: 140px;
-    cursor: pointer;   
+.logo {
+  width: 140px;
+  cursor: pointer;
 }
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 15px;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
 }
-.navbar ul li a{
-    text-decoration:none;
-    color:#5f5f5f;
-    font-size: 15px;
+.navbar ul li a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 15px;
 }
-.content{
-    width:100%;
-    position: absolute;
-    top:30%;
+.content {
+  width: 100%;
+  position: absolute;
+  top: 30%;
 }
-.left-column{
-    margin-left: 6%;
+.left-column {
+  margin-left: 6%;
 }
-.left-column h1{
-    font-size: 90px;
-    color: #fff;
-    line-height: 110px;
-    float: left;
+.left-column h1 {
+  font-size: 90px;
+  color: #fff;
+  line-height: 110px;
+  float: left;
 }
-.right-column{
-    float: right;
-    margin-right: 6%;
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
+.right-column {
+  float: right;
+  margin-right: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
 }
-.right-column p{
-    font-size:18px;
-    color: #5f5f5f;
-    font-weight: 400;
-    margin-right: 15px;
+.right-column p {
+  font-size: 18px;
+  color: #5f5f5f;
+  font-weight: 400;
+  margin-right: 15px;
 }
-#icon{
-    width: 80px;
-    cursor: pointer;
+#icon {
+  width: 80px;
+  cursor: pointer;
 }
-#prev-icon{
-    width: 80px;
-    cursor: pointer;
-    border-radius: 3rem;
+#prev-icon {
+  width: 80px;
+  cursor: pointer;
+  border-radius: 3rem;
 }
-#next-icon{
-    width: 80px;
-    cursor: pointer;
-    border-radius: 3rem;
+#next-icon {
+  width: 80px;
+  cursor: pointer;
+  border-radius: 3rem;
 }
-#mySong:hover{
-    border: 2px solid #eb98bf;
+#mySong:hover {
+  border: 2px solid #eb98bf;
 }
